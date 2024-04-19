@@ -6,6 +6,7 @@
     <title>用户注册表单</title>
 </head>
 <body>
+<%@include file="header.jsp"%>
 <form action="register" method="post">
     <div>
         <label for="username">用户名:</label>
@@ -34,5 +35,6 @@
         <input type="submit" value="提交">
     </div>
 </form>
+<%@include file="footer.jsp"%>
 </body>
 </html>
